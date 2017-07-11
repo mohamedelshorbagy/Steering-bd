@@ -31,7 +31,7 @@ console.log(windowWidth);
 
 /* You Can Change Your Name Here :D */
 
-var points = font.textToPoints('Logine' , 350 ,200, 192);
+var points = font.textToPoints('Logine' , 180 ,200, 192);
 
 
 
@@ -92,7 +92,8 @@ function dots(x , y) {
 dots.prototype.show = function() {
   //rgb(52, 152, 219)
   //rgb(46, 204, 113)
-  stroke(46,204,113);
+  ////rgb(155, 89, 182)
+  stroke(155,89,182);
   strokeWeight(8);
   point(this.pos.x , this.pos.y);
 
